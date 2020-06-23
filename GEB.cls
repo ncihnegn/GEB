@@ -1214,6 +1214,7 @@
       \hbox_to_wd:nn { .44em } { \tex_hss:D \textcdot \tex_hss:D }
       \tex_hfill:D
   }
+\RequirePackage { zref-abspage }
 \cs_new_protected:Npn \@@_toc_label:nnn #1#2
   {
     \dim_set:Nn \l_tmpa_dim
